@@ -1,0 +1,32 @@
+nav {
+  background: linear-gradient(to bottom, #000, #ad0303);
+}
+.navbar {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex; /* Use flexbox to create a horizontal layout */
+}
+
+.navbar li {
+  margin-right: 20px; /* Adjust as needed */
+  height: 8vh;
+  width: 25%;
+  padding-left: 5%;
+  padding-top: 5%;
+  position: relative;
+}
+
+.navbar li:last-child {
+  margin-right: 0; /* Remove margin from the last item */
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #014a8f;
+  background-color: white;
+  font-weight: bold;
+  font-size: 18px; /* Increase the font size */
+  padding: 10px 15px; /* Add padding to make the clickable area larger */
+  border-radius: 30%; /* Add rounded corners for a button-like appearance */
+}
