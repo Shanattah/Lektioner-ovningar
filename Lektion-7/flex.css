@@ -1,0 +1,20 @@
+.flex-container {
+  display: flex;
+  border: 1px red solid;
+}
+
+.flex-item {
+  border: 1px dashed black;
+}
+.row {
+  flex-direction: row-reverse;
+}
+.row-reverse {
+  border: 1px solid black;
+}
+.columnn-reverse {
+  flex-direction: column-reverse;
+}
+.column {
+  flex-direction: column;
+}
